@@ -1,20 +1,20 @@
 **Символы групповых операций:** 
 1. \* - любое (также нулевое) количество любых символов
 
-        rm fi*e.txt  
-        rm file*  
-        rm *
+       rm fi*e.txt  
+       rm file*  
+       rm *
 
 2. \? - один произвольный символ
 
-        rm fi?le.txt
+       rm fi?le.txt
     
 3. \[\] - один символ из набора
 
-        rm file[123].txt
-        rm file[1-3].txt
+       rm file[123].txt
+       rm file[1-3].txt
 
 4. \{\} - строки или диапазоны
 
-        rm file.{txt, jpg}
-        rm file{1..3}{a..b}.txt
+       rm file.{txt, jpg}
+       rm file{1..3}{a..b}.txt
