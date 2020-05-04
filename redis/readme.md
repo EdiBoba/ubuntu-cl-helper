@@ -2,4 +2,5 @@
 
 **Запуск redis:** 
 
-`redis-server /path/to/redis.conf`
+    redis-server /path/to/redis.conf
+
