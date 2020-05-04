@@ -15,3 +15,19 @@
 **Остановка nginx:**
 
     sudo systemctl stop nginx
+
+**Статус nginx:**
+
+    sudo systemctl status nginx
+
+**Не стартовать nginx при запуске системы:**
+
+    sudo systemctl disable nginx
+
+**Стартовать nginx при запуске системы:**
+
+    sudo systemctl enable nginx
+
+**Версия nginx**
+
+    nginx -v
